@@ -3,6 +3,7 @@
 require 'simple-spreadsheet'
 require 'pp'
 require 'yaml'
+require 'json'
 
 def get_header_line_num(ods)
   line_num = -1
@@ -42,6 +43,26 @@ def ods_read(file_name)
   return rows
 end
 
+def get_scale_from_dev_name(dev_name)
+  scale = 1
+  if dev_name =~ /2x/ then
+    scale = 2
+  end
+  if dev_name =~ /3x/ then
+    scale = 3
+  end
+  return scale
+end
+
+def get_nice_val(val)
+  nice_val = val
+  if match = val.match(/(.*)\(.*\)/) then
+    nice_val = match.captures[0]
+  end
+  nice_val.gsub! " ", ""
+  return nice_val.downcase
+end
+
 def nicefy(ods)
   nice_data = Hash.new
   nice_data["devices"] = []
@@ -60,8 +81,9 @@ def nicefy(ods)
       next
     end
     device = Hash.new
-    device["devname"] = dev
+    device["devname"] = get_nice_val(dev)
     device["assets"] = []
+    scale = get_scale_from_dev_name(dev)
     ods[hdr_line_num + 1..-1].each_with_index do |row, rowi|
       desc = row[0]
       name = row[1]
@@ -69,11 +91,10 @@ def nicefy(ods)
 
       asset = Hash.new
       asset["name"] = name
-      asset["resolution"] = resolution
+      asset["resolution"] = get_nice_val(resolution)
+      asset["scale"] = scale
 
       device["assets"].push(asset)
-
-      #print "#{name} #{dev} #{resolution}\n"
     end
     nice_data["devices"].push(device)
   end
@@ -83,7 +104,12 @@ end
 def main
   data = ods_read("./asset-toolbox.ods")
   data_nice = nicefy(data)
-  print data_nice.to_yaml
+  File.open("asset-toolbox.json", "w") do |f|
+    f.write(JSON.pretty_generate(data_nice))
+  end
+  File.open("asset-toolbox.yaml", "w") do |f|
+    f.write(data_nice.to_yaml)
+  end
 end
 
 main
