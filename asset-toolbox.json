@@ -1,0 +1,609 @@
+{
+  "devices": [
+    {
+      "devname": "iphone6plus",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "180x180",
+          "scale": 3
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 3
+        },
+        {
+          "name": "launch_port",
+          "resolution": "1242x2208",
+          "scale": 3
+        },
+        {
+          "name": "launch_land",
+          "resolution": "2208x1242",
+          "scale": 3
+        },
+        {
+          "name": "spotlight",
+          "resolution": "180x180",
+          "scale": 3
+        },
+        {
+          "name": "settings",
+          "resolution": "87x87",
+          "scale": 3
+        },
+        {
+          "name": "toolnav",
+          "resolution": "66.5x66.5",
+          "scale": 3
+        },
+        {
+          "name": "tabbar",
+          "resolution": "75x75",
+          "scale": 3
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "144x96",
+          "scale": 3
+        },
+        {
+          "name": "webclip",
+          "resolution": "180x180",
+          "scale": 3
+        }
+      ]
+    },
+    {
+      "devname": "iphone6splus",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "180x180",
+          "scale": 3
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 3
+        },
+        {
+          "name": "launch_port",
+          "resolution": "1242x2208",
+          "scale": 3
+        },
+        {
+          "name": "launch_land",
+          "resolution": "2208x1242",
+          "scale": 3
+        },
+        {
+          "name": "spotlight",
+          "resolution": "180x180",
+          "scale": 3
+        },
+        {
+          "name": "settings",
+          "resolution": "87x87",
+          "scale": 3
+        },
+        {
+          "name": "toolnav",
+          "resolution": "66.5x66.5",
+          "scale": 3
+        },
+        {
+          "name": "tabbar",
+          "resolution": "75x75",
+          "scale": 3
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "144x96",
+          "scale": 3
+        },
+        {
+          "name": "webclip",
+          "resolution": "180x180",
+          "scale": 3
+        }
+      ]
+    },
+    {
+      "devname": "iphone6",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "120x120",
+          "scale": 2
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 2
+        },
+        {
+          "name": "launch_port",
+          "resolution": "750x1334",
+          "scale": 2
+        },
+        {
+          "name": "launch_land",
+          "resolution": "1334x750",
+          "scale": 2
+        },
+        {
+          "name": "spotlight",
+          "resolution": "120x120",
+          "scale": 2
+        },
+        {
+          "name": "settings",
+          "resolution": "58x58",
+          "scale": 2
+        },
+        {
+          "name": "toolnav",
+          "resolution": "44.5x44.5",
+          "scale": 2
+        },
+        {
+          "name": "tabbar",
+          "resolution": "50x50",
+          "scale": 2
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "96x64",
+          "scale": 2
+        },
+        {
+          "name": "webclip",
+          "resolution": "120x120",
+          "scale": 2
+        }
+      ]
+    },
+    {
+      "devname": "iphone6s",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "120x120",
+          "scale": 2
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 2
+        },
+        {
+          "name": "launch_port",
+          "resolution": "750x1334",
+          "scale": 2
+        },
+        {
+          "name": "launch_land",
+          "resolution": "1334x750",
+          "scale": 2
+        },
+        {
+          "name": "spotlight",
+          "resolution": "120x120",
+          "scale": 2
+        },
+        {
+          "name": "settings",
+          "resolution": "58x58",
+          "scale": 2
+        },
+        {
+          "name": "toolnav",
+          "resolution": "44.5x44.5",
+          "scale": 2
+        },
+        {
+          "name": "tabbar",
+          "resolution": "50x50",
+          "scale": 2
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "96x64",
+          "scale": 2
+        },
+        {
+          "name": "webclip",
+          "resolution": "120x120",
+          "scale": 2
+        }
+      ]
+    },
+    {
+      "devname": "iphone5",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "120x120",
+          "scale": 2
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 2
+        },
+        {
+          "name": "launch_port",
+          "resolution": "640x1136",
+          "scale": 2
+        },
+        {
+          "name": "launch_land",
+          "resolution": "????",
+          "scale": 2
+        },
+        {
+          "name": "spotlight",
+          "resolution": "80x80",
+          "scale": 2
+        },
+        {
+          "name": "settings",
+          "resolution": "58x58",
+          "scale": 2
+        },
+        {
+          "name": "toolnav",
+          "resolution": "44.5x44.5",
+          "scale": 2
+        },
+        {
+          "name": "tabbar",
+          "resolution": "50x50",
+          "scale": 2
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "96x64",
+          "scale": 2
+        },
+        {
+          "name": "webclip",
+          "resolution": "120x120",
+          "scale": 2
+        }
+      ]
+    },
+    {
+      "devname": "iphone4s",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "120x120",
+          "scale": 2
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 2
+        },
+        {
+          "name": "launch_port",
+          "resolution": "640x960",
+          "scale": 2
+        },
+        {
+          "name": "launch_land",
+          "resolution": "????",
+          "scale": 2
+        },
+        {
+          "name": "spotlight",
+          "resolution": "80x80",
+          "scale": 2
+        },
+        {
+          "name": "settings",
+          "resolution": "58x58",
+          "scale": 2
+        },
+        {
+          "name": "toolnav",
+          "resolution": "44.5x44.5",
+          "scale": 2
+        },
+        {
+          "name": "tabbar",
+          "resolution": "50x50",
+          "scale": 2
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "96x64",
+          "scale": 2
+        },
+        {
+          "name": "webclip",
+          "resolution": "120x120",
+          "scale": 2
+        }
+      ]
+    },
+    {
+      "devname": "ipad",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "152x152",
+          "scale": 2
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 2
+        },
+        {
+          "name": "launch_port",
+          "resolution": "1536x2048",
+          "scale": 2
+        },
+        {
+          "name": "launch_land",
+          "resolution": "2048x1536",
+          "scale": 2
+        },
+        {
+          "name": "spotlight",
+          "resolution": "120x120",
+          "scale": 2
+        },
+        {
+          "name": "settings",
+          "resolution": "58x58",
+          "scale": 2
+        },
+        {
+          "name": "toolnav",
+          "resolution": "44.5x44.5",
+          "scale": 2
+        },
+        {
+          "name": "tabbar",
+          "resolution": "50x50",
+          "scale": 2
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "96x64",
+          "scale": 2
+        },
+        {
+          "name": "webclip",
+          "resolution": "152x152",
+          "scale": 2
+        }
+      ]
+    },
+    {
+      "devname": "ipadmini",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "152x152",
+          "scale": 2
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 2
+        },
+        {
+          "name": "launch_port",
+          "resolution": "1536x2048",
+          "scale": 2
+        },
+        {
+          "name": "launch_land",
+          "resolution": "2048x1536",
+          "scale": 2
+        },
+        {
+          "name": "spotlight",
+          "resolution": "120x120",
+          "scale": 2
+        },
+        {
+          "name": "settings",
+          "resolution": "58x58",
+          "scale": 2
+        },
+        {
+          "name": "toolnav",
+          "resolution": "44.5x44.5",
+          "scale": 2
+        },
+        {
+          "name": "tabbar",
+          "resolution": "50x50",
+          "scale": 2
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "96x64",
+          "scale": 2
+        },
+        {
+          "name": "webclip",
+          "resolution": "152x152",
+          "scale": 2
+        }
+      ]
+    },
+    {
+      "devname": "ipad2",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "76x76",
+          "scale": 1
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 1
+        },
+        {
+          "name": "launch_port",
+          "resolution": "768x1024",
+          "scale": 1
+        },
+        {
+          "name": "launch_land",
+          "resolution": "1024x768",
+          "scale": 1
+        },
+        {
+          "name": "spotlight",
+          "resolution": "60x60",
+          "scale": 1
+        },
+        {
+          "name": "settings",
+          "resolution": "29x29",
+          "scale": 1
+        },
+        {
+          "name": "toolnav",
+          "resolution": "22.5x22.5",
+          "scale": 1
+        },
+        {
+          "name": "tabbar",
+          "resolution": "25x25",
+          "scale": 1
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "48x32",
+          "scale": 1
+        },
+        {
+          "name": "webclip",
+          "resolution": "76x76",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "devname": "ipadmini",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "76x76",
+          "scale": 1
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 1
+        },
+        {
+          "name": "launch_port",
+          "resolution": "768x1024",
+          "scale": 1
+        },
+        {
+          "name": "launch_land",
+          "resolution": "1024x768",
+          "scale": 1
+        },
+        {
+          "name": "spotlight",
+          "resolution": "60x60",
+          "scale": 1
+        },
+        {
+          "name": "settings",
+          "resolution": "29x29",
+          "scale": 1
+        },
+        {
+          "name": "toolnav",
+          "resolution": "22.5x22.5",
+          "scale": 1
+        },
+        {
+          "name": "tabbar",
+          "resolution": "25x25",
+          "scale": 1
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "48x32",
+          "scale": 1
+        },
+        {
+          "name": "webclip",
+          "resolution": "76x76",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "devname": "ipadpro",
+      "assets": [
+        {
+          "name": "appicon",
+          "resolution": "167x167",
+          "scale": 2
+        },
+        {
+          "name": "appiconstore",
+          "resolution": "1024x1024",
+          "scale": 2
+        },
+        {
+          "name": "launch_port",
+          "resolution": "2048x2732",
+          "scale": 2
+        },
+        {
+          "name": "launch_land",
+          "resolution": "2732x2048",
+          "scale": 2
+        },
+        {
+          "name": "spotlight",
+          "resolution": "120x120",
+          "scale": 2
+        },
+        {
+          "name": "settings",
+          "resolution": "58x58",
+          "scale": 2
+        },
+        {
+          "name": "toolnav",
+          "resolution": "44.5x44.5",
+          "scale": 2
+        },
+        {
+          "name": "tabbar",
+          "resolution": "50x50",
+          "scale": 2
+        },
+        {
+          "name": "tabbar_max",
+          "resolution": "96x64",
+          "scale": 2
+        },
+        {
+          "name": "webclip",
+          "resolution": "167x167",
+          "scale": 2
+        }
+      ]
+    }
+  ]
+}
